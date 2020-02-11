@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
 import MainCollapse from "./components/main";
 import * as serviceWorker from "./serviceWorker";
 
