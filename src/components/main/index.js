@@ -7,7 +7,7 @@ const MainCollapse = () => {
       <li>
         {/* Using radio Inputs means only one can be selected at a time*/}
         {/* The ID must be unique so the label will point to the Input*/}
-        <Input id="rad1" type="radio" name="rad" defaultChecked="checked" />
+        <Input id="rad1" type="radio" name="rad" defaultChecked="" />
         <Label htmlFor="rad1">
           <div>Just keep going with longer text</div>
         </Label>
@@ -56,6 +56,20 @@ const MainCollapse = () => {
         <Accslide>
           <div className="content">
             <h1>Fourth panel</h1>
+            <p>Lorem ipsum...</p>
+          </div>
+        </Accslide>
+      </li>
+      <li>
+        {/* Using radio Inputs means only one can be selected at a time*/}
+        {/* The ID must be unique so the Label will point to the Input*/}
+        <Input id="rad5" type="radio" name="rad" />
+        <Label htmlFor="rad5">
+          <div>Fifth panel</div>
+        </Label>
+        <Accslide>
+          <div className="content">
+            <h1>Fifth panel</h1>
             <p>Lorem ipsum...</p>
           </div>
         </Accslide>
